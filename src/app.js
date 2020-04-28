@@ -12,7 +12,7 @@ submit.addEventListener('click', function() {
       .then(response => response.json())
       .then((data) => {
           listItem.forEach((item) => {
-            const apiResponse = `<li>${data.fact}</li>`;
+            const apiResponse = `<li>${data.fact}</li><hr>`;
             item.insertAdjacentHTML("beforebegin", apiResponse);
       });
     });

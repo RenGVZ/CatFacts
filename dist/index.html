@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../src/scss/app.scss">
   <title>Cat Facts</title>
 </head>
 <body>
@@ -11,10 +11,12 @@
     <div class="outer-box text-center mt-3">
       <h1>Cat Facts!</h1><hr>
       <img src="../src/cat.png" class="cat-pic">
-      <ul id="facts">Did you know this?
-        <li class="list-item"></li>
-        <button id="submit" class="btn btn-secondary mt-3 mb-3" style="color: white; font-weight: bold;">Get a new fact!</button>
-      </ul>
+      <div class="box">
+        <ol id="facts">Did you know this?
+          <li class="list-item"></li>
+          <button id="submit" class="btn btn-secondary mt-3 mb-3" style="color: white; font-weight: bold;">Get a new fact!</button>
+        </ul>
+      </div>
     </div>
 
   </div>
